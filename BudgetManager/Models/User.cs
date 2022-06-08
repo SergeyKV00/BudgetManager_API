@@ -13,5 +13,7 @@
         public DateTime? ModifiedOn { get; set; }
 
         public DateTime? RevokeOn { get; set; }
+
+        public ICollection<Category> Categories { get; set; }
     }
 }
