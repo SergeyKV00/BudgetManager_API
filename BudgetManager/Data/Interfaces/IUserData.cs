@@ -16,6 +16,6 @@ namespace BudgetManager.Data.Interfaces
         User UpdateUser(User user);
 
        // Delete
-       User DeleteUser(User user);
+       User DeleteUser(Guid id);
     }
 }
